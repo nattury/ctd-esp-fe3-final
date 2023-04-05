@@ -10,7 +10,7 @@ const Card = ({ name, username, id }) => {
       username: username,
     };
     localStorage.setItem("favs", JSON.stringify(fav));
-    alert(`Se agregó a ${fav.name} a los favoritos`);
+    alert(`Se ha agregado a ${fav.name} a los favoritos`);
   };
 
   const { state } = useGlobalStates();
@@ -31,6 +31,8 @@ const Card = ({ name, username, id }) => {
         <button
           onClick={addFav}
           className="favButton"
+          style={{color: state.dark && 'transparent',
+          textShadow: state.dark && '0 0 0 MediumPurple'}}
         >
           ⭐
         </button>

@@ -19,24 +19,24 @@ code {
   width: 100%;
   cursor: pointer;
   color: transparent; 
-  text-shadow: 0 0 0 DarkMagenta;
+  text-shadow: 0 0 0 Magenta;
 }
 
 h1{
   text-align: center;
 }
 .nav_title{
-  font-size: 20px;
+  font-size: 25px;
   width: 2vw;
   gap: 10px;
   display: flex;
 }
 .p1{
-  color: black;
-  font-weight: 700;
+  color: rgb(34, 32, 32);
+  font-weight: 750;
 }
 .p2{
-  color: rgb(65, 25, 11);
+  color: DarkCyan;
   font-weight: 700;
 }
 
