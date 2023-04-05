@@ -31,7 +31,6 @@ const Card = ({ name, username, id }) => {
         <button
           onClick={addFav}
           className="favButton"
-          style={{ color: "transparent", textShadow: "0 0 0 purple" }}
         >
           ⭐
         </button>

@@ -18,6 +18,8 @@ code {
   border: none;
   width: 100%;
   cursor: pointer;
+  color: transparent; 
+  text-shadow: 0 0 0 DarkMagenta;
 }
 
 h1{
@@ -50,7 +52,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #6cbcdb;
+  background-color: PaleTurquoise;
 }
 .btn{
   border-radius: 10px;
@@ -112,7 +114,7 @@ footer {
   width: 90%;
   height: 40px;
   margin-top: 2rem;
-  background-color: #6cbcdb;
+  background-color: PaleTurquoise;
   width: auto;
 }
 
