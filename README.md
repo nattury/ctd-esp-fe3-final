@@ -1,6 +1,6 @@
-# ctd-fe3-final - Nataly Rodríguez Giraldo
+# ctd-fe3-final
 
-Examen Final de Frontend III
+Examen Final de Frontend III - Nataly Rodríguez Giraldo
 
 ## Indice
 
