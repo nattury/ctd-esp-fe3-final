@@ -22,7 +22,7 @@ const Card = ({ name, username, id }) => {
         <img src="./images/doctor.jpg" alt="doctor" width={200} height={200} />
       ) : null}
       {username ? (
-        <Link to={`/dentist/${id}`} style={style}>
+        <Link to={`/dentist/${id}`} style={style} className="linkDentist">
           <a>{name}</a>
         </Link>
       ) : null}

@@ -48,6 +48,14 @@ nav{
   gap: 15px;
 }
 
+.link {
+  color: black;
+}
+
+.link:hover{
+  color: LightSeaGreen;
+}
+
 .container{
   display: flex;
   justify-content: space-around;
@@ -90,9 +98,7 @@ a{
   margin: 5px;
   cursor: pointer;
 }
-a:hover{
-  color: rgb(151, 151, 151);
-}
+
 .adjust{
   height: 70vh;
   text-align: center;
@@ -159,6 +165,15 @@ form{
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
+.linkDentist{
+  color: black;
+}
+
+.linkDentist:hover {
+  color: LightSeaGreen;
+}
+
 .fav{
   gap: 1rem;
   width: 90vw;

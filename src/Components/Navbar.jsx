@@ -17,11 +17,11 @@ const Navbar = () => {
         </div>
         
         <nav>
-          <Link to={routes.home}className='link' style={style}><p>Home</p></Link>
-          <Link to={routes.contact} style={style}><p>Contact</p></Link>
-          <Link to={routes.favs} style={style}><p>Favs</p></Link>
+          <Link to={routes.home} className='link' style={style}><p>Home</p></Link>
+          <Link to={routes.contact} className='link' style={style}><p>Contact</p></Link>
+          <Link to={routes.favs} className='link' style={style}><p>Favs</p></Link>
           <button onClick={()=>dispatch(!state.dark ? { type: 'dark' }: { type: 'light' })} className='btn'
-          style={{ color: state.dark && 'white', background: state.dark && '#db7093' }}>{state.dark ?'🌞' : '🌛'}</button>
+          style={{ color: state.dark && 'white', background: state.dark && '#db7093', }}>{state.dark ?'🌞' : '🌛'}</button>
         </nav>
     </div>
   )

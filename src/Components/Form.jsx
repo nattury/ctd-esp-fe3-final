@@ -7,7 +7,7 @@ const Form = () => {
 
   const handleSubmit=(e)=>{
     e.preventDefault()
-    name.length>5 ? alert(`“Gracias ${name}, te contactaremos cuando antes vía mail.`) 
+    name.length>5 ? alert(`“Gracias ${name}, te contactaremos cuanto antes vía mail.`) 
     : alert("Por favor verifique su información nuevamente.")
   }
   return (
