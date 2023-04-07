@@ -126,6 +126,7 @@ footer {
 
 footer > img{
   width: 200px;
+  /*background-color: blue;*/
   margin: 0;
 }
 footer > p{
@@ -199,7 +200,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #a3a0a0;
 }
 
 .dark{
