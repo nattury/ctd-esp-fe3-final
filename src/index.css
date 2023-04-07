@@ -77,20 +77,24 @@ nav{
 .btn2{
   border-radius: 10px;
   border: none;
+  background-color: pink;
+  padding: 4px;
 }
 .btn2:hover{
   cursor:pointer;
+  background-color: 	LightCoral;
 }
 .btn3{
   border-radius: 10px;
+  padding: 4px;
   border: none;
   height: 30px;
   width: 60px;
-  background-color: beige;
+  background-color: pink;
 }
 .btn3:hover{
   cursor: pointer;
-  background-color: chocolate;
+  background-color: 	LightCoral;
 }
 
 a{
@@ -108,8 +112,13 @@ a{
   gap: 10px;
   display: flex;
   align-items: center;
-  color: rgb(223, 127, 143);
+  color: pink;
+  background-color: grey;
+  width: 25%;
+  height: auto;
+  padding: 8px; 
 }
+
 footer {
   display: flex;
   justify-content: center;
