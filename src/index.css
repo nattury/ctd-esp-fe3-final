@@ -70,6 +70,7 @@ nav{
   margin-top: 10px;
   margin-left: 9px;
   border: none;
+  font-size: 22px;
 }
 .btn:hover{
   cursor: pointer;
