@@ -1,7 +1,7 @@
 # ctd-fe3-final
 
 Examen Final de Frontend III 
-Nataly Rodríguez Giraldo - Camada 1
+- Nataly Rodríguez Giraldo - Camada 1
 
 ## Indice
 
